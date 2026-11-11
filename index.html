@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №9 — Гра 21</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="player-section">
+            <div id="userName" class="name-tag">User</div>
+            <div id="userScore" class="score-box">0</div>
+            <div id="userCard" class="card-display">Карта</div>
+        </div>
+
+        <div class="controls-section">
+            <div id="roundInfo" class="round-tag">Спроба 0 з 3</div>
+            <button id="generateBtn">Generate</button>
+        </div>
+
+        <div class="player-section">
+            <div class="name-tag">Computer</div>
+            <div id="compScore" class="score-box">0</div>
+            <div id="compCard" class="card-display">Карта</div>
+        </div>
+    </div>
+
+    <!-- Статус гри -->
+    <div id="gameStatus" class="status-message">Натисніть Generate для початку гри</div>
+
+</body>
+</html>
